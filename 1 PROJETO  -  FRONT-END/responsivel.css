@@ -1,0 +1,8 @@
+@media screen (max-width:500px) {
+    
+    .formulario-pizza {
+        display: flex;
+    
+        text-align: center;
+    }
+}

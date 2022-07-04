@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsivel.css">
+    <title>Pizzaria Dev</title>
+</head>
+<header>
+    <img src="https://img.elo7.com.br/product/zoom/1DC6616/logotipo-pizzaria-pizza.jpg" alt="logo da pizzaria" width="100%" height="200px">
+    <h1 class="titulo-principal"><strong>Pizzaria dos Devs Junior</strong></h1>
+    <h2 class="sub-titulo">Sejam bem vindos a nova pizzaria do momento</h2>
+    <br>
+</header>
+
+<body>
+    <form class="formulario-pizza" action="Login_pizzaria.html" ,method="get">
+        <h2>Quantidade de pizzas</h2>
+        <br><br>
+        <select name="quantidade de pizza">
+            <option value="1 pizza">1 pizza</option>
+            <option value="2 pizza">2 pizza</option>
+            <option value="3 pizza">3 pizza</option>
+            <option value="4 pizza">4 pizza</option>
+            <option value="5 pizza">5 pizza</option>
+            <option value="6 pizza">6 pizza</option>
+            <option value="7 pizza">7 pizza</option>
+            <option value="8 pizza">8 pizza</option>
+            <option value="9 pizza">9 pizza</option>
+            <option value="10 pizza">10 pizza</option>
+
+        </select>
+        <br><br><br>
+        <h2>Tamanhos das pizza</h2>
+
+        <input type="radio" id="pizza1" name="tamanho_das_pizza" placeholder="escolha o tamanho da sua pizza" value="extra-big">
+        <label for="pizza1">extra-big 18 Pedaços</label>
+        <br>
+        <input type="radio" id="pizza2" name="tamanho_das_pizza" placeholder="escolha o tamanho da sua pizza" value="big">
+        <label for="pizza2">big 16 Pedaços</label>
+        <br>
+
+        <input type="radio" id="pizza3" name="tamanho_das_pizza" placeholder="escolha o tamanho da sua pizza" value="grande">
+        <label for="pizza3">grande 12 Pedaços</label>
+        <br>
+
+        <input type="radio" id="pizza4" name="tamanho_das_pizza" placeholder="escolha o tamanho da sua pizza" value="média">
+        <label for="pizza4">média 10 Pedaços</label>
+        <br>
+
+        <input type="radio" id="pizza5" name="tamanho_das_pizza" placeholder="escolha o tamanho da sua pizza" value="pequena">
+        <label for="pizza5">pequena 8 Pedaços</label>
+
+
+        <br><br><br>
+
+        <h2>Escolha seus recheios da pizza</h2>
+
+        <input type="checkbox" id="item1" name="recheio1" value="da casa">
+        <label for="recheio1">Da casa</label>
+
+        <br>
+        <input type="checkbox" id="item2" name="recheio2" value="Portuguesa">
+        <label for="recheio2">Portuguesa</label>
+
+        <br>
+
+        <input type="checkbox" id="item3" name="recheio3" value="4 Queijo">
+        <label for="recheio3"> 4 Queijo</label>
+
+        <br>
+
+        <input type="checkbox" id="item4" name="recheio4" value="Estrogonof">
+        <label for="recheio4">Estrogonof</label>
+        <br>
+
+        <input type="checkbox" id="item5" name="recheio5" value="Calabresa">
+        <label for="recheio5">Calabresa</label>
+
+        <br><br>
+
+        <select name="entrega">
+            <option selected disabled value="">seleciona a opcao de retirada ou entrega</option>
+            <option value="retirada">retirada no local</option>
+            <option value="entrega em sua casa">entrega em sua casa</option>
+        </select>
+        <br><br><br>
+        <label for="endereco">Endereco</label>
+        <input id="endereco" type="text" placeholder="digite seu endereco" required>
+        <br><br>
+        <label for="bairro">Bairro</label>
+        <input id="bairro" type="text" placeholder="digite o nome do seu bairro" required>
+        <br><br>
+        <label for="numero">Numero da casa</label>
+        <input id="numero" type="text" placeholder="digite o numero da sua casa" required>
+        <br><br>
+        <label for="complemento">Complemento</label>
+        <input id="complemento" type="text" placeholder="Complemento (casa,apartamento,etc)" required>
+        <br><br><br><br>
+
+        <input class="enviar-pedido" type="submit" value="enviar o seu pedido">
+    </form>
+    <br><br>
+    <footer>
+        <p class="cop">&copy; Otavio Schmieleski Costa</p>
+    </footer>
+
+
+</body>
+
+
+</html>
